@@ -6,6 +6,7 @@
 venv/
 **/clothes_images/tmp/
 .env
+data/
 
 
 ### Django ###
