@@ -10,35 +10,6 @@
 {% block bg %}
 {% endblock %}
 {% block content %}
-  <div class="hidden">
-    <script type="text/javascript">
-      <!--//--><![CDATA[//><!--
-        var images = new Array()
-        function preload() {
-          for (i = 0; i < preload.arguments.length; i++) {
-            images[i] = new Image()
-            images[i].src = preload.arguments[i]
-          }
-        }
-        preload(
-          "/static/hipdrobe/img/clothes-icon/head-f.png",
-          "/static/hipdrobe/img/clothes-icon/top1-f.png",
-          "/static/hipdrobe/img/clothes-icon/top2-f.png",
-          "/static/hipdrobe/img/clothes-icon/outer-f.png",
-          "/static/hipdrobe/img/clothes-icon/bottom1-f.png",
-          "/static/hipdrobe/img/clothes-icon/bottom2-f.png",
-          "/static/hipdrobe/img/clothes-icon/foot1-f.png",
-          "/static/hipdrobe/img/clothes-icon/foot2-f.png",
-          "/static/hipdrobe/img/clothes-icon/acc1-f.png",
-          "/static/hipdrobe/img/clothes-icon/acc2-f.png",
-          "/static/hipdrobe/img/clothes-icon/acc3-f.svg",
-          "/static/hipdrobe/img/clothes-icon/acc4-f.png",
-          "/static/hipdrobe/img/clothes-icon/acc5-f.png",
-          "/static/hipdrobe/img/clothes-icon/acc6-f.png",
-        )
-      //--><!]]>
-    </script>
-  </div>
   {% include 'hipdrobe/include/_wardrobe-link.html' %}
   <div class="container-fluid content-wrap ctnt-center">
     <!-- main content section -->
